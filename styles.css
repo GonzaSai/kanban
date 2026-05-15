@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .kanban {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .column {
+    background: white;
+    padding: 15px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .tasks {
+    min-height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .task {
+    background: #e3e3e3;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    cursor: pointer;
+  }
